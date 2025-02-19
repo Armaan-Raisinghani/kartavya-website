@@ -31,7 +31,6 @@ export default function EventsPage() {
                   <Link href={`/gallery/${event.id}`}>
                     <Button variant="outline">View Gallery</Button>
                   </Link>
-                  <Button>Learn More</Button>
                 </div>
               </CardContent>
             </Card>
