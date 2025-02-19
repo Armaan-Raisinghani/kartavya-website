@@ -1,22 +1,16 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import events from "@/public/events.json";
 // This would typically come from your database
-const events = {
-  "blanket-chai-drive": {
-    title: "Blanket & Chai Drive",
-    images: Array(6).fill(
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-    ),
-    description: "Images from our winter warmth initiative",
-  },
-  // ... other events
-}
 
-export default function EventGallery({ params }: { params: { eventId: string } }) {
-  const event = events[params.eventId as keyof typeof events]
+export default function EventGallery({
+  params,
+}: {
+  params: { eventId: string };
+}) {
+  const event = events.filter((x) => x.id === params.eventId)[0];
 
   return (
     <div className="min-h-screen bg-[#FFF1E6] py-12">
@@ -26,7 +20,10 @@ export default function EventGallery({ params }: { params: { eventId: string } }
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {event.images.map((image, index) => (
-            <div key={index} className="relative aspect-square rounded-lg overflow-hidden">
+            <div
+              key={index}
+              className="relative aspect-square rounded-lg overflow-hidden"
+            >
               <Image
                 src={image || "/placeholder.svg"}
                 alt={`${event.title} image ${index + 1}`}
@@ -66,6 +63,5 @@ export default function EventGallery({ params }: { params: { eventId: string } }
         </div>
       </div>
     </div>
-  )
+  );
 }
-
