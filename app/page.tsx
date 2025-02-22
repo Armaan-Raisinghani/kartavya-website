@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Mail, Phone, Star } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -79,13 +79,12 @@ export default function Home() {
       </section>
 
       {/* Initiatives Section */}
-      <section className="bg-[#8B7355] px-4 py-16">
+      <section className="bg-[#8B7355] px-4 py-16 min-h-screen flex flex-col items-center justify-start">
         <div className="container mx-auto">
           <div className="mb-12 flex items-center justify-between">
-            <h2 className="text-3xl font-bold text-white">
+            <h2 className="text-4xl font-bold text-white">
               Our Initiatives and Events
             </h2>
-            <Star className="h-8 w-8 text-white" />
           </div>
           <div className="relative">
             <div className="grid gap-8 md:grid-cols-3">
@@ -132,45 +131,49 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="bg-gradient-to-br from-[#8B7355] to-[#A8927D] px-4 py-16">
+      <section className="bg-gradient-to-br from-[#8B7355] to-[#A8927D] px-4 py-16  min-h-screen flex flex-col items-center justify-start">
         <div className="container mx-auto">
           <div className="grid gap-8 lg:grid-cols-2">
-            <div className="space-y-6 text-white">
-              <h2 className="text-3xl font-bold">About Kartavya Club</h2>
-              <p className="text-lg">
-                At Kartavya Club, we believe in the power of collective effort.
-                Our passionate team works tirelessly to create meaningful impact
-                in our community, focusing on various social issues. From
-                organizing outreach programs to nurturing a culture of giving
-                back, join us as we strive to make a difference, one initiative
-                at a time.
-              </p>
-              <div className="grid grid-cols-3 gap-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold">50</div>
-                  <div className="text-sm">years of community service</div>
+            <div className="space-y-6 text-white flex flex-col gap-8">
+              <div>
+                <h2 className="text-3xl font-bold">About Kartavya Club</h2>
+                <p className="text-lg">
+                  At Kartavya Club, we believe in the power of collective
+                  effort. Our passionate team works tirelessly to create
+                  meaningful impact in our community, focusing on various social
+                  issues. From organizing outreach programs to nurturing a
+                  culture of giving back, join us as we strive to make a
+                  difference, one initiative at a time.
+                </p>
+              </div>
+              <div className="grid grid-rows-3 gap-12 ">
+                <div className="text-center flex gap-3 items-center">
+                  <div className="text-6xl font-bold">50+</div>
+                  <div className="text-xl">years of community service</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold">10+</div>
-                  <div className="text-sm">dedicated volunteers</div>
+                <div className="text-center flex gap-3 items-center">
+                  <div className="text-6xl font-bold">10+</div>
+                  <div className="text-xl">dedicated volunteers</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold">10+</div>
-                  <div className="text-sm">projects initiated</div>
+                <div className="text-center flex gap-3 items-center">
+                  <div className="text-6xl font-bold">10+</div>
+                  <div className="text-xl">projects initiated</div>
                 </div>
               </div>
+              <Button className="w-1/3 self-center bg-[#20B2AA] hover:bg-[#20B2AA]/90">
+                Meet the team
+              </Button>
             </div>
             <div className="relative">
               <Image
                 src="/hands.png"
                 alt="Community service"
-                width={400}
-                height={400}
+                width={600}
+                height={600}
                 className="rounded-lg"
               />
               <div className="absolute -left-4 -top-4 h-32 w-[2px] bg-white" />
               <div className="absolute -left-4 -top-4 h-[2px] w-32 bg-white" />
-              <Star className="absolute -right-4 -top-4 h-8 w-8 text-white" />
             </div>
           </div>
         </div>
@@ -195,7 +198,6 @@ export default function Home() {
                 <span>222222222</span>
               </div>
               <div className="flex items-center gap-2">
-                <Star className="h-5 w-5 text-gray-600" />
                 <span>Sponsor Us!</span>
               </div>
             </div>
