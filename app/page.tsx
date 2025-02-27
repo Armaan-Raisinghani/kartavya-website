@@ -10,27 +10,46 @@ import {
   faTwitter,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#FFF1E6]">
+    <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden px-4 py-16">
         <div className="container mx-auto grid gap-8 lg:grid-cols-2 lg:items-center">
           <div className="relative">
-            <div className="absolute -right-4 top-0 h-full w-[2px] bg-[#20B2AA]" />
             <Image
               src="/hands.png"
               alt="Hands joining together"
               width={400}
               height={400}
-              className="rounded-lg"
+              className="rounded-lg mx-auto"
             />
           </div>
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-gray-800 lg:text-5xl">
+            <h1
+              style={{
+                color: "#564E4C",
+                fontFamily: "Philosopher",
+                fontSize: "50px",
+                fontStyle: "normal",
+                fontWeight: 400,
+                lineHeight: "normal",
+              }}
+              className="font-bold lg:text-5xl text-center"
+            >
               KARTAVYA CLUB
             </h1>
-            <p className="text-lg text-gray-600">
+            <p
+              style={{
+                color: "#564E4C",
+                fontFamily: "Philosopher",
+                fontSize: "22px",
+                fontStyle: "normal",
+                fontWeight: 400,
+                lineHeight: "normal",
+              }}
+            >
               Welcome to Kartavya Club, where compassion meets action. Our
               mission is to uplift communities and foster social change through
               dedicated service and engagement.
@@ -79,11 +98,22 @@ export default function Home() {
       </section>
 
       {/* Initiatives Section */}
-      <section className="bg-[#8B7355] px-4 py-16 min-h-screen flex flex-col items-center justify-start">
+      <section className="px-4 py-16 min-h-screen flex flex-col items-center justify-start bg-[#564E4C]">
         <div className="container mx-auto">
           <div className="mb-12 flex items-center justify-between">
-            <h2 className="text-4xl font-bold text-white">
-              Our Initiatives and Events
+            <h2 className="text-4xl font-bold text-white text-center md:text-left">
+              <span
+                style={{
+                  color: "#FDFCDC",
+                  fontFamily: "Philosopher",
+                  fontSize: "70px",
+                  fontStyle: "normal",
+                  fontWeight: 400,
+                  lineHeight: "normal",
+                }}
+              >
+                Our Initiatives and Events
+              </span>
             </h2>
           </div>
           <div className="relative">
@@ -110,19 +140,26 @@ export default function Home() {
               ].map((initiative, index) => (
                 <div
                   key={index}
-                  className="overflow-hidden rounded-xl bg-white p-4 shadow-lg"
+                  className={
+                    "overflow-hidden rounded-xl bg-[#77645A] p-4 shadow-lg text-center md:text-left md:flex gap-4 " +
+                    (index == 1 ? "md:flex-col-reverse" : "md:flex-col")
+                  }
                 >
                   <Image
                     src={initiative.image || "/placeholder.svg"}
                     alt={initiative.title}
-                    width={300}
-                    height={200}
-                    className="mb-4 rounded-lg"
+                    width={450}
+                    height={300}
+                    className="mb-4 rounded-xl text-center"
                   />
-                  <h3 className="mb-2 text-xl font-bold text-gray-800">
-                    {initiative.title}
-                  </h3>
-                  <p className="text-gray-600">{initiative.description}</p>
+                  <div>
+                    <h3 className="text-center mb-2 text-xl text-[#FDFCDC]">
+                      {initiative.title}
+                    </h3>
+                    <p className="text-[#FDFCDC] text-center">
+                      {initiative.description}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -131,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="bg-gradient-to-br from-[#8B7355] to-[#A8927D] px-4 py-16  min-h-screen flex flex-col items-center justify-start">
+      <section className="bg-[#564E4C] px-4 py-16  min-h-screen flex flex-col items-center justify-start text-center md:text-left">
         <div className="container mx-auto">
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="space-y-6 text-white flex flex-col gap-8">
@@ -160,9 +197,11 @@ export default function Home() {
                   <div className="text-xl">projects initiated</div>
                 </div>
               </div>
-              <Button className="w-1/3 self-center bg-[#20B2AA] hover:bg-[#20B2AA]/90">
-                Meet the team
-              </Button>
+              <Link href="/about">
+                <Button className="w-1/3 self-center bg-[#20B2AA] hover:bg-[#20B2AA]/90">
+                  Meet the team
+                </Button>
+              </Link>
             </div>
             <div className="relative">
               <Image
@@ -172,15 +211,13 @@ export default function Home() {
                 height={600}
                 className="rounded-lg"
               />
-              <div className="absolute -left-4 -top-4 h-32 w-[2px] bg-white" />
-              <div className="absolute -left-4 -top-4 h-[2px] w-32 bg-white" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="bg-[#FDF6EC] px-4 py-16">
+      <section className="px-4 py-16">
         <div className="container mx-auto">
           <div className="mb-12 flex items-center justify-center gap-4">
             <span className="text-2xl">*</span>
