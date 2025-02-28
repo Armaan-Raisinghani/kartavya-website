@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function MainNav() {
   return (
-    <nav className="px-4 py-2 bg-[#FFF1E6] mx-auto">
+    <nav className="px-4 py-2 bg-[#FDFCDC] mx-auto">
       <div className="flex items-center justify-between">
         <Image
           src="/logo.png"
