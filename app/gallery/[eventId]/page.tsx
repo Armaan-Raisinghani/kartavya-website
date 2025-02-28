@@ -11,7 +11,6 @@ export default function EventGallery({
   params: { eventId: string };
 }) {
   const event = events.filter((x) => x.id === params.eventId)[0];
-
   return (
     <div className="min-h-screen bg-[#FFF1E6] py-12">
       <div className="container mx-auto px-4">
@@ -37,10 +36,10 @@ export default function EventGallery({
         <div className="space-y-8">
           <h2 className="text-2xl font-semibold">More Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {Object.entries(events)
-              .filter(([id]) => id !== params.eventId)
-              .map(([id, event]) => (
-                <Card key={id}>
+            {events
+              .filter((i) => i.id !== params.eventId)
+              .map((event) => (
+                <Card key={event.id}>
                   <CardContent className="p-4">
                     <div className="relative aspect-square mb-4">
                       <Image
@@ -51,7 +50,7 @@ export default function EventGallery({
                       />
                     </div>
                     <h3 className="font-semibold mb-2">{event.title}</h3>
-                    <Link href={`/gallery/${id}`}>
+                    <Link href={`/gallery/${event.id}`}>
                       <Button variant="outline" className="w-full">
                         View Gallery
                       </Button>
