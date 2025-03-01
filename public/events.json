@@ -2,53 +2,53 @@
   {
     "id": "blanket-chai-drive",
     "title": "Blanket & Chai Drive",
-    "description": "Join us in spreading warmth this winter season through our annual Blanket & Chai Drive.",
+    "description": "We collaborated with a local NGO to spread warmth during the winter, giving away chai and blankets.",
     "images": [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png"
+      "../event images/chaiblanket/IMG-20241209-WA0042.jpg",
+      "../event images/chaiblanket/IMG-20241209-WA0005.jpg",     
+      "../event images/chaiblanket/IMG-20241209-WA0051.jpg",
+      "../event images/chaiblanket/IMG-20241209-WA0011.jpg",
+      "../event images/chaiblanket/IMG-20241209-WA0014.jpg",
+      "../event images/chaiblanket/IMG-20241209-WA0026.jpg"
     ]
   },
   {
     "id": "cleanliness-drive",
     "title": "Cleanliness Drive",
-    "description": "Help us make our community cleaner and greener through our monthly cleanliness initiative.",
+    "description": "We took initiative to make our community cleaner and greener, on Gandhi Jayanti.",
     "images": [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png"
+      "../event images/clean/8a2989e8-e073-4bd4-915a-6511b94d87f8.JPG",
+      "../event images/clean/375fc794-db2d-42e0-b291-e56003e4f4f1.JPG",
+      "../event images/clean/75842179-d821-4ba1-8668-fba6afe04768.JPG",
+      "../event images/clean/ac2da59e-d80d-4ed3-9020-ae6f4781afbf.JPG",
+      "../event images/clean/b2a943c2-5fe0-401d-b0d6-250151aa5e72.JPG",
+      "../event images/clean/c6e2c80a-118f-48c0-925e-471ad549039c.JPG"
     ]
   },
   {
     "id": "langar-seva",
     "title": "Langar Seva",
-    "description": "Participate in our community kitchen service to provide meals to those in need.",
+    "description": "We took a delightful visit to a local gurudwara, engaging in kitchen service and langar seva.",
     "images": [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png"
+      "../event images/langar/IMG_2054.jpg",
+      "../event images/langar/IMG_2064.jpg",
+      "../event images/langar/IMG_2070.jpg",
+      "../event images/langar/IMG_5381.jpg",
+      "../event images/langar/IMG_5389.jpg",
+      "../event images/langar/IMG_5412.jpg"   
     ]
   },
   {
     "id": "blood-donation",
     "title": "Blood Donation Drive",
-    "description": "Save lives by participating in our regular blood donation camps.",
+    "description": "Our annual blood drive gave way for the Plaksha community to save lives from the comfort of their campus'",
     "images": [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-l8uE3H8vNO5fLtHGQEVrtzTHl6m3Zw.png"
+      "../event images/blood drive/IMG_0984.JPG",
+      "../event images/blood drive/IMG_5529.JPG",
+      "../event images/blood drive/IMG_5560.JPG",
+      "../event images/blood drive/IMG_9922.JPG",
+      "../event images/blood drive/PXL_20240920_111125792.JPG",
+      "../event images/blood drive/a9f44d12-cfd7-4554-832c-fa70b88688db 2.JPG"
     ]
   }
 ]
