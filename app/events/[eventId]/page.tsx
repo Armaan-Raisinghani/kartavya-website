@@ -14,7 +14,7 @@ export default function EventGallery({
   const event = events.filter((x) => x.id === params.eventId)[0];
 
   return (
-    <div className="min-h-screen bg-[#FFF1E6] py-12">
+    <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold mb-4">{event.title} Gallery</h1>
         <p className="text-muted-foreground mb-8">{event.description}</p>
