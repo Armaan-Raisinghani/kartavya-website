@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import events from "@/public/events.json";
+import EventSmall from "@/components/event-small";
 // This would typically come from your database
 
 export default function EventGallery({
@@ -37,27 +38,10 @@ export default function EventGallery({
         <div className="space-y-8">
           <h2 className="text-2xl font-semibold">More Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {Object.entries(events)
-              .filter(([id]) => id !== params.eventId)
-              .map(([id, event]) => (
-                <Card key={id}>
-                  <CardContent className="p-4">
-                    <div className="relative aspect-square mb-4">
-                      <Image
-                        src={event.images[0] || "/placeholder.svg"}
-                        alt={event.title}
-                        fill
-                        className="object-cover rounded-lg"
-                      />
-                    </div>
-                    <h3 className="font-semibold mb-2">{event.title}</h3>
-                    <Link href={`/events/${id}`}>
-                      <Button variant="outline" className="w-full">
-                        View Gallery
-                      </Button>
-                    </Link>
-                  </CardContent>
-                </Card>
+            {events
+              .filter((i) => i.id !== params.eventId)
+              .map((event) => (
+                <EventSmall key={event.id} event={event} />
               ))}
           </div>
         </div>

@@ -141,7 +141,7 @@ export default function Home() {
                 <div
                   key={index}
                   className={
-                    "overflow-hidden rounded-xl bg-[#77645A] p-4 shadow-lg text-center md:text-left md:flex gap-4 " +
+                    "overflow-hidden rounded-xl bg-[#77645A] p-4 shadow-lg text-center md:text-left md:flex gap-4 justify-between " +
                     (index == 1 ? "md:flex-col-reverse" : "md:flex-col")
                   }
                 >
