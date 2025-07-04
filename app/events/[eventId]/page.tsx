@@ -23,13 +23,13 @@ export default function EventGallery({
           {event.images.map((image, index) => (
             <div
               key={index}
-              className="relative aspect-square rounded-lg overflow-hidden"
+              className="relative aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform"
             >
               <Image
                 src={image || "/placeholder.svg"}
                 alt={`${event.title} image ${index + 1}`}
                 fill
-                className="object-cover hover:scale-105 transition-transform"
+                className="object-cover "
               />
             </div>
           ))}

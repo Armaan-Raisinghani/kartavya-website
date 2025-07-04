@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={philosopher.className + " bg-[#fdfcdcec]"}>
+      <body className={philosopher.className + " bg-[#fdfcdc]"}>
         <div className="relative">
           <MainNav />
           <main>{children}</main>
