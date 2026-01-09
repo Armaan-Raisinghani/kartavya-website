@@ -1,0 +1,194 @@
+{
+  "Core": [
+    {
+      "name": "Jane Doe",
+      "role": "President",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "John Doe",
+      "role": "Vice President",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Johnathon Doe",
+      "role": "Design Head",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Janathon Doe",
+      "role": "Research Head",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "John Doeathon",
+      "role": "Content Head",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    }
+  ],
+  "Research": [
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    }
+  ],
+  "Outreach": [
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    }
+  ],
+  "Design": [
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    }
+  ],
+  "Content": [
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    }
+  ],
+  "Events": [
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    },
+    {
+      "name": "Jane Doe",
+      "link": "https://www.linkedin.com/in/armaan-raisinghani/",
+      "image": "/members/placeholder.png"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "blanket-chai-drive",
+    "title": "Blanket & Chai Drive",
+    "description": "We collaborated with a local NGO to spread warmth during the winter, giving away chai and blankets.",
+    "images": [
+      "/event_images/chaiblanket/1.jpg",
+      "/event_images/chaiblanket/2.jpg",
+      "/event_images/chaiblanket/3.jpg",
+      "/event_images/chaiblanket/4.jpg",
+      "/event_images/chaiblanket/5.jpg",
+      "/event_images/chaiblanket/6.jpg",
+      "/event_images/chaiblanket/7.jpg"
+    ],
+    "titleimage": "/event_images/chaiblanket/title.png"
+  },
+  {
+    "id": "cleanliness-drive",
+    "title": "Cleanliness Drive",
+    "description": "We took initiative to make our community cleaner and greener, on Gandhi Jayanti.",
+    "images": [
+      "/event_images/clean/1.jpg",
+      "/event_images/clean/2.jpg",
+      "/event_images/clean/3.jpg",
+      "/event_images/clean/4.jpg",
+      "/event_images/clean/5.jpg",
+      "/event_images/clean/6.jpg"
+    ],
+    "titleimage": "/event_images/clean/title.png"
+  },
+  {
+    "id": "langar-seva",
+    "title": "Langar Seva",
+    "description": "We took a delightful visit to a local gurudwara, engaging in kitchen service and langar seva.",
+    "images": [
+      "/event_images/langar/1.jpg",
+      "/event_images/langar/2.jpg",
+      "/event_images/langar/3.jpg",
+      "/event_images/langar/4.jpg",
+      "/event_images/langar/5.jpg",
+      "/event_images/langar/6.jpg"
+    ],
+    "titleimage": "/event_images/langar/title.png"
+  },
+  {
+    "id": "blood-donation",
+    "title": "Blood Donation Drive",
+    "description": "Our annual blood drive gave way for the Plaksha community to save lives from the comfort of their campus'",
+    "images": [
+      "/event_images/blood_drive/1.jpg",
+      "/event_images/blood_drive/2.jpg",
+      "/event_images/blood_drive/3.jpg",
+      "/event_images/blood_drive/4.jpg",
+      "/event_images/blood_drive/5.jpg",
+      "/event_images/blood_drive/6.jpg"
+    ],
+    "titleimage": "/event_images/blood_drive/title.png"
+  }
+]
